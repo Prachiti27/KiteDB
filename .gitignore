@@ -37,3 +37,11 @@
 # OS files
 .DS_Store
 Thumbs.db
+
+# Ignore all executables without an extension
+*
+!*/
+!*.c
+!*.h
+!*.md
+!*.gitignore
